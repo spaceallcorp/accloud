@@ -14,7 +14,7 @@
     text-align: justify;
     
     /* Fluid typography */
-    font-size: clamp(1rem, 2vw, 1.3rem);
+    font-size: clamp(1rem, 2vw, 1rem);
     line-height: 1.6;
 }
 
@@ -28,7 +28,6 @@
 }
 
 .video-thumbnail:hover {
-    transform: scale(1.02);
     box-shadow: 0 0 30px rgba(0, 234, 255, 0.8);
 }
 
