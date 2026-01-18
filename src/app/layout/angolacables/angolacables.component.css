@@ -5,11 +5,7 @@
 
 .texto-div {
     color: white;
-
-
 }
-
-
 
 .glass-accordion {
     max-width: 600px;
@@ -35,8 +31,6 @@
     padding: 1rem;
     display: block;
     transition: all 0.3s ease;
-
-
     background: linear-gradient(135deg, #006a78, #006eff, #00ff95);
     background-size: 200% 200%;
     color: white;
@@ -197,10 +191,6 @@
     .uk-gap>*+* {
         margin-left: 8px;
     }
-
-
-  
-
     .uk-subnav {
         display: flex;
         flex-direction: column;

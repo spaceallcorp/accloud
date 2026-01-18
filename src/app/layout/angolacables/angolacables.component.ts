@@ -4,10 +4,11 @@ import { CommonModule } from '@angular/common';
 import { TranslatePipe,  TranslateService } from '@ngx-translate/core';
 import { ParceirosComponent } from '../parceiros/parceiros.component';
 import { CtaComponent } from '../cta/cta.component';
+import { ScrollAnimateDirective } from '../../shared/directives/scroll-animate.diretive'
 
 @Component({
   selector: 'app-angolacables',
-  imports: [CommonModule, TranslatePipe, ParceirosComponent, CtaComponent],
+  imports: [CommonModule, TranslatePipe, ParceirosComponent, CtaComponent, ScrollAnimateDirective],
   templateUrl: './angolacables.component.html',
   styleUrl: './angolacables.component.css'
 })

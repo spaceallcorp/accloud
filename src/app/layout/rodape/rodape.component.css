@@ -5,14 +5,15 @@
   position: relative;
   bottom: 0;
   width: 100%;
-
-  color: rgb(0, 53, 110);
+  
+  background-color: rgb(0, 53, 110);
 }
 
 li,
 a,
 p {
-  color: rgb(0, 53, 110);
+  /* color: rgb(0, 53, 110); */
+  color: #fff;
 }
 
 .site-footer .container {
@@ -23,7 +24,7 @@ p {
 
 /* Footer content layout: 3 columns */
 .footer-content {
-  background: linear-gradient(360deg, #00e1ff, #00e1ff00, #d2d2d200);
+  /* background: linear-gradient(360deg, #00e1ff, #00e1ff00, #d2d2d200); */
   padding: 50px;
   border-radius: 20px;
   display: flex;
@@ -54,7 +55,7 @@ p {
 
 .footer-links a {
   text-decoration: none;
-  color: rgb(0, 53, 110);
+  /* color: rgb(0, 53, 110); */
   transition: color 0.3s;
 }
 
@@ -92,7 +93,8 @@ p {
 }
 
 .link {
-  color:rgb(0, 53, 110) !important;
+  /* color:rgb(0, 53, 110) !important; */
+  color: #fff;
 }
 
 

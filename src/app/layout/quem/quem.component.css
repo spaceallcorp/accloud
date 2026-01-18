@@ -61,7 +61,8 @@
     padding: 1rem 1.5rem;
     display: block;
     transition: all 0.3s ease;
-    background: linear-gradient(135deg, #006a78, #006eff, #00ff95);
+    /* background: linear-gradient(135deg, #006a78, #006eff, #00ff95); */
+    background-color: rgb(18, 72, 130);
     background-size: 200% 200%;
     
     /* Fluid typography */
@@ -79,11 +80,11 @@
 }
 
 .glass-accordion .uk-accordion-content {
-    color: #fff;
+    color: #686868;
     font-weight: 500;
     line-height: 1.6;
     padding: 1rem 1.5rem;
-    background: rgb(0, 53, 110);
+    background: rgb(255, 255, 255);
     
     /* Fluid typography */
     font-size: clamp(0.875rem, 1.5vw, 0.95rem);

@@ -240,7 +240,8 @@
 }
 
 .sectores-descricao {
-    color: rgb(18, 72, 130);
+    color: rgb(153, 153, 153);
+    /* color: white; */
     font-size: clamp(1rem, 2vw, 1.2rem);
     max-width: 600px;
     margin: 0 auto;
@@ -251,6 +252,7 @@
 /* Sector Cards */
 .sector-card {
     background: linear-gradient(135deg, #ffffff, #f8f9fa);
+    /* background-color: rgb(0, 53, 110); */
     border-radius: 20px;
     padding: 2rem 1rem;
     margin: 0.5rem;
@@ -272,11 +274,13 @@
 
 .sector-icon {
     color: rgb(0, 53, 110);
+    /* color: white; */
     margin-bottom: 1rem;
 }
 
 .sector-name {
     color: rgb(18, 72, 130);
+    /* color: white; */
     font-weight: 600;
     font-size: clamp(0.9rem, 1.5vw, 1.1rem);
     margin: 0;
